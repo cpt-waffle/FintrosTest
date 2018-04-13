@@ -1,1 +1,31 @@
-<h1>Hello World</h1>
+body {
+  display: block;
+  margin-top: 8px;
+  margin-left: 8%;
+  margin-right: 8%;
+  font-family: "Lucida Grande", "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 751px) {
+  body {
+    margin: 0;
+  }
+}
+
+.hackernavbar {
+  background-color: #ff6600;
+  color: black;
+  height: 1.5em;
+}
+
+.stories {
+  padding-top: 10px;
+  background-color: #eaeaea6b;
+}
+
+li {
+  height: 2.25em;
+  padding-bottom: 5px;
+
+}
