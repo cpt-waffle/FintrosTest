@@ -4,19 +4,28 @@ body {
   margin-left: 8%;
   margin-right: 8%;
   font-family: "Lucida Grande", "Segoe UI", Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 11px;
 }
 
-@media only screen and (max-width: 751px) {
-  body {
-    margin: 0;
-  }
+a {
+  font-size: 14px;
+  color:black;
+}
+
+a:hover {
+  color:black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #bbb3b3;
+
 }
 
 .hackernavbar {
   background-color: #ff6600;
   color: black;
-  height: 1.5em;
+  height: 2.4em;
 }
 
 .stories {
@@ -25,7 +34,22 @@ body {
 }
 
 li {
-  height: 2.25em;
+  height: 3.4em;
   padding-bottom: 5px;
 
+}
+
+li:before {
+  color:red;
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+    margin: 0;
+    font-size: 13px;
+  }
+
+  li {
+    height:1%;
+  }
 }
